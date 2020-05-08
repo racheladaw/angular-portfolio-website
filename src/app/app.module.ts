@@ -7,6 +7,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ResumeComponent } from './resume/resume.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { ProjectComponent } from './projects/project/project.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -16,7 +17,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     NavBarComponent,
     AboutMeComponent,
     ResumeComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,
