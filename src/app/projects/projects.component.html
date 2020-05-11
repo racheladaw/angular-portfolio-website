@@ -1,4 +1,7 @@
-<div class="container" id="projects" *ngFor="let project of projects">
-  <app-project [project]="project"></app-project>
-  <!-- project cards go here -->
+<div class="row" id="projects">
+  <div class="col-sm">
+    <div class="container" *ngFor="let project of projects">
+      <app-project [project]="project"></app-project>
+    </div>
+  </div>
 </div>
